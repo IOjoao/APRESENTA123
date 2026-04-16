@@ -5,7 +5,7 @@ import datetime
 import graphviz
 from selenium import webdriver
 
-VENDAS = pd.read_excel("vendas_ficticias_5_lojas.xls")
+VENDAS = pd.read_excel("vendas_ficticias_5_lojas.xlsx")
 
 opcao = st.sidebar.selectbox(
     "Escolha uma opção:",
